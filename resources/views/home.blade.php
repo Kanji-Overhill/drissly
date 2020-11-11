@@ -23,10 +23,10 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="#">
-                    <img class="logo-default scroll-hide" src="media/logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/logo.svg" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/logo.svg" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/logo.svg" alt="logo" />
+                    <img class="logo-default scroll-hide" src="media/Transparent_White.png" alt="logo" />
+                    <img class="logo-retina scroll-hide" src="media/Transparent_White.png" alt="logo" />
+                    <img class="logo-default scroll-show" src="media/Transparent_White.png" alt="logo" />
+                    <img class="logo-retina scroll-show" src="media/Transparent_White.png" alt="logo" />
                 </a>
             </div>
             <i class="menu-btn"></i>
@@ -43,9 +43,6 @@
                     </li>
                     <li>
                         <a href="#">Contacto</a>
-                    </li>
-                    <li class="nav-label">
-                        <a href="#"><span>Call us:</span> (023) 112 589 </a>
                     </li>
                 </ul>
                 <div class="menu-right">
