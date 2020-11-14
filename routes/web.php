@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});

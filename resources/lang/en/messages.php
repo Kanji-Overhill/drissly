@@ -1,0 +1,46 @@
+<?php
+
+return [
+	
+	'index_1' => 'Home',
+	'index_2' => 'About us',
+	'index_3' => 'Services',
+	'index_4' => 'Frequent questions',
+	'index_5' => 'Contact',
+	'index_6' => 'Provide your customers with the simplicity of making their  cellphone minutes recharges through an easy and safe system, with the best technology.',
+	'index_7' => 'Menu',
+	'index_8' => 'Address',
+	'index_9' => 'Phone',
+	'index_10' => 'Schedule',
+	'home_1' => 'Pay the most important services coming soon',
+	'home_2' => 'Increase your business sales!',
+	'home_3' => 'Provide your customers with the simplicity of making their  cellphone minutes recharges through an easy and safe system, with the best technology.',
+	'home_4' => 'Make your cellphone minutes recharges at all telephone companies in Mexico.',
+	'home_5' => 'Easy integration, safe and fast with the highest technology.',
+	'home_6' => 'Increase your income with charging points in your business, with the most updated system.',
+	'home_7' => 'Personalized attention and when you require it.',
+	'home_8' => 'Know the numbers',
+	'home_9' => 'Why should you invest in this business?',
+	'home_10' => 'In 2019, 60% of the population in Mexico uses a smartphone and it is forecast to increase to 70% by 2025. Mobile commerce generated 11 million dollars in revenue in Mexico in 2019.',
+	'home_11' => 'Our services',
+	'home_12' => 'Give your business a bonus and increase your revenue with us.',
+	'home_13' => 'Recharge your mobile device safely and quickly.',
+	'home_14' => 'We give you the biggest reach. Recharge all Mexican  mobile companies.',
+	'home_15' => 'Do the payments for all your services with us… Soon.',
+	'home_16' => 'About us',
+	'home_17' => 'At Drissly we aim to provide users with a convenient, secure, and technological alternative to make their cellphone minutes recharges to all telephone companies in the country and coming soon the integration of payments for public services, entertainment and municipal services.',
+	'home_18' => 'Business model',
+	'home_19' => 'The result of our business model is a joint benefit; Users avoid waiting in lines or going to remote locations to make their payments, suppliers obtain a broader scope of collection and distributors obtain greater customer traffic in their spaces and higher income.',
+	'home_20' => 'We have commercial agreements for the sale and distribution of recharges of all mobile operators in Mexico, to provide. versatility in your business, in a safe and fast way.',
+	'home_21' => 'Write to us and we will contact you.',
+	'home_22' => 'Contact us',
+	'home_23' => 'Name',
+	'home_24' => 'Position',
+	'home_25' => 'Phone',
+	'home_26' => 'Email',
+	'home_27' => 'Message',
+	'home_28' => 'Send Message',
+
+];
+
+?>

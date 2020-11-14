@@ -1,20 +1,20 @@
 @extends('home')
 @section('content')
-        <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)">
+        <section class="section-image section-home-one no-padding-y" style="background-image:url(media/hd-1.jpg)" id="inicio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
                         <hr class="space-lg" />
                         <h3 class="text-color-2">
-                            Pago de servicios próximamente
+                            {{ __('messages.home_1') }}
                         </h3>
                         <ul class="slider" data-options="arrows:false,nav:false,autoplay:3000,controls:out">
                             <li>
-                                <h1 class="text-uppercase">¡Incrementa las ventas de tu negocio!</h1>
+                                <h1 class="text-uppercase">{{ __('messages.home_2') }}</h1>
                             </li>
                         </ul>
                         <p>
-                            Brinda a tus clientes la facilidad de realizar sus recargas de tiempo aire mediante un sistema, fácil, seguro y con la mejor tecnología. 
+                            {{ __('messages.home_3') }} 
                         </p>
                         <hr class="space-sm" />
                         <hr class="space-lg" />
@@ -37,7 +37,7 @@
                                 <div class="caption">
                                     <h2></h2>
                                     <p>
-                                        Realiza tus recargas de tiempo aire en todas las compañías telefónicas de México.
+                                        {{ __('messages.home_4') }}
                                     </p>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@
                                 <div class="caption">
                                     <h2></h2>
                                     <p>
-                                        Facil integración, segura y rápida con la mas alta tecnologia <br><br>
+                                        {{ __('messages.home_5') }} <br><br>
                                     </p>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@
                                 <div class="caption">
                                     <h2></h2>
                                     <p>
-                                        Aumenta tus ingresos con puntos de recarga en tu negocio, con el sistema más actualizado
+                                        {{ __('messages.home_6') }}
                                     </p>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 <div class="caption">
                                     <h2></h2>
                                     <p>
-                                        Atención personalizada y en momento que lo requieras <br><br>
+                                        {{ __('messages.home_7') }}<br><br>
                                     </p>
                                 </div>
                             </div>
@@ -83,24 +83,24 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="title">
-                            <h2>¿Porque te conviene invertir en este negocio?</h2>
-                            <p>Conoce los numeros</p>
+                            <h2>{{ __('messages.home_9') }}</h2>
+                            <p>{{ __('messages.home_8') }}</p>
                         </div>
                         <p>
-                            En 2019, el numero de usuarios de telefonos moviles en México ascendio de 86.46 millones, frente a aproximadamente 42 millones de usuarios en 2009. 
+                           {{ __('messages.home_10') }} 
                         </p>
                        
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-base section-color">
+        <section class="section-base section-color" id="services">
             <div class="container">
                 <div class="row" data-anima="fade-bottom" data-time="1000">
                     <div class="col-lg-8">
                         <div class="title">
-                            <h2>Dale un plus a tu negocio e incrementa tus ingresos con nosotros.</h2>
-                            <p>Nuestro Servicios</p>
+                            <h2>{{ __('messages.home_12') }}</h2>
+                            <p>{{ __('messages.home_11') }}</p>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                 <a href="#" class="img-box"><img src="media/image-15.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
-                                        Realiza recargas de tiempo aire a tu dispositivo movil de forma segura y rápida. 
+                                        {{ __('messages.home_13') }} 
                                     </p>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
                                 <a href="#" class="img-box"><img src="media/image-12.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
-                                        Te brindamos el mayor alcance. Recargas a todas las compañías móviles de México. 
+                                        {{ __('messages.home_14') }} 
                                     </p>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                 <a href="#" class="img-box"><img src="media/image-2.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
-                                        Realiza el pago de todos tus servicios con nosotros… próximamente.<br><br>
+                                        {{ __('messages.home_15') }}<br><br>
                                     </p>
                                 </div>
                             </div>
@@ -141,15 +141,15 @@
                 </div>
             </div>
         </section>
-        <section class="section-base">
+        <section class="section-base" id="about_us">
             <div class="container">
                 <div class="row align-items-center" data-anima="fade-bottom" data-time="1000">
                     <div class="col-lg-6">
                         <div class="title">
-                            <h2>Acerca de nosotros</h2>
+                            <h2>{{ __('messages.home_16') }}</h2>
                         </div>
                         <p>
-                           En Drissly tenemos como objetivo brindar a los usuarios una alternativa conveniente, segura y con la mayor tecnología para realizar sus recargas de tiempo aire a todas las compañias telefónicas del país y proximamente la integración de pagos de servicios públicos, de entretenimiento y municipales. 
+                           {{ __('messages.home_17') }} 
                         </p>
                         <hr class="space-sm" />
                     </div>
@@ -167,10 +167,10 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="title">
-                            <h2>Modelo de negocio</h2>
+                            <h2>{{ __('messages.home_18') }}</h2>
                         </div>
                         <p>
-                            El resultado de nuestro modelo de negocio es  un beneficio en conjunto; los usuarios se evitan realizar filas o acudir a ubicaciones remotas para la realización de sus pagos, los proveedores obtienen un alcance de recolección más amplio y los distribuidores  obtienen mayor transito de clientes en sus espacios y mayores ingresos. 
+                            {{ __('messages.home_19') }}
                         </p>
                         <hr class="space-sm" />
                     </div>
@@ -179,10 +179,10 @@
                 <hr class="space-xs" />
             </div>
         </section>
-        <section class="section-image light align-center ken-burn-center" data-parallax="scroll" data-image-src="media/hd-4.jpg">
+        <section id="preguntas" class="section-image light align-center ken-burn-center" data-parallax="scroll" data-image-src="media/hd-4.jpg">
             <div class="container" data-anima="fade-bottom" data-time="1000">
                 <hr class="space" />
-                <h2 class="width-750">Contamos con acuerdos comerciales para venta y distribución de recargas de todas las operadoras moviles en México, para brindar. versatilidad en tu negocio, de una forma segura y rapida</h2>
+                <h2 class="width-750">{{ __('messages.home_20') }}</h2>
                 <hr class="space" />
                 <table class="table table-grid table-border align-center table-logos table-10">
                     <tbody>
@@ -207,35 +207,34 @@
                 </table>
             </div>
         </section>
-        <section class="section-base">
+        <section class="section-base" id="contacto">
             <div class="container">
                 <div class="row" data-anima="fade-bottom" data-time="1000">
                     <div class="col-lg-6">
                         <div class="title">
-                            <h2>Escríbenos y nosotros nos podremos en contacto conitgo. </h2>
-                            <p>Contactanos</p>
+                            <h2>{{ __('messages.home_21') }}</h2>
+                            <p>{{ __('messages.home_22') }}</p>
                         </div>
-                        <a href="#" class="btn-text active">You accept our policy</a>
                     </div>
                     <div class="col-lg-6">
                         <form id="UCiFI" action="thtmekit/scripts/php/contact-form.php" class="form-box form-ajax form-ajax-wp" method="post" data-email="">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <input id="Name" name="Name" placeholder="Nombre" type="text" class="input-text" required="">
+                                    <input id="Name" name="Name" placeholder="{{ __('messages.home_23') }}" type="text" class="input-text" required="">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input id="Email" name="Email" placeholder="Cargo" type="email" class="input-text" required="">
+                                    <input id="Email" name="Email" placeholder="{{ __('messages.home_24') }}" type="email" class="input-text" required="">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input id="Name" name="Name" placeholder="Teléfono" type="text" class="input-text" required="">
+                                    <input id="Name" name="Name" placeholder="{{ __('messages.home_25') }}" type="text" class="input-text" required="">
                                 </div>
                                 <div class="col-lg-6">
-                                    <input id="Email" name="Email" placeholder="Correo" type="email" class="input-text" required="">
+                                    <input id="Email" name="Email" placeholder="{{ __('messages.home_26') }}" type="email" class="input-text" required="">
                                 </div>
                             </div>
                             <hr class="space-xs" />
-                            <textarea id="Message" name="Message" placeholder="Mensaje" class="input-textarea" required=""></textarea>
-                            <button class="btn btn-xs" type="submit">Enviar mensaje</button>
+                            <textarea id="Message" name="Message" placeholder="{{ __('messages.home_27') }}" class="input-textarea" required=""></textarea>
+                            <button class="btn btn-xs" type="submit">{{ __('messages.home_28') }}</button>
                             <div class="success-box">
                                 <div class="alert alert-success">
                                     Congratulations. Your message has been sent successfully.

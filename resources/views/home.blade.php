@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | 1 | Execoore | Technology And Business Template</title>
+    <title>Drissly</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
@@ -33,23 +33,32 @@
             <div class="menu-cnt">
                 <ul id="main-menu">
                     <li>
-                        <a href="#">Inicio</a>
+                        <a href="#inicio">{{ __('messages.index_1') }}</a>
                     </li>
                     <li>
-                        <a href="#">Acerca de</a>
+                        <a href="#about_us">{{ __('messages.index_2') }}</a>
                     </li>
                     <li>
-                        <a href="#">Preguntas Frecuentes</a>
+                        <a href="#services">{{ __('messages.index_3') }}</a>
                     </li>
                     <li>
-                        <a href="#">Contacto</a>
+                        <a href="#preguntas">{{ __('messages.index_4') }}</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">{{ __('messages.index_5') }}</a>
                     </li>
                 </ul>
                 <div class="menu-right">
                     <ul class="lan-menu">
-                        <li>
-                            <a href="#"><img src="media/en.png" alt="lang" />EN </a>
-                        </li>
+                        @if (app()->getLocale() == 'en')
+                            <li>
+                                <a href="{{ url('locale/es') }}"><img src="media/es.png" alt="lang" />ES </a>
+                            </li>
+                        @else
+                            <li>
+                                <a href="{{ url('locale/en') }}"><img src="media/en.png" alt="lang" />EN </a>
+                            </li>
+                        @endif
                     </ul>
                 </div>
             </div>
@@ -63,38 +72,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3>Execoore</h3>
-                    <p>Full suite enable teams to develop unique search and discovery experiences.</p>
-                    <div class="icon-links icon-social icon-links-grid social-colors">
-                        <a class="facebook"><i class="icon-facebook"></i></a>
-                        <a class="twitter"><i class="icon-twitter"></i></a>
-                        <a class="instagram"><i class="icon-instagram"></i></a>
-                        <a class="pinterest"><i class="icon-pinterest"></i></a>
-                    </div>
+                    <h3>Drissly</h3>
+                    <p>{{ __('messages.index_6') }}</p>
+                    
                 </div>
                 <div class="col-lg-4">
-                    <h3>Resources</h3>
+                    <h3>Menu</h3>
                     <ul class="icon-list icon-line">
-                        <li><a href="#">Partners and advertising</a></li>
-                        <li><a href="#">About us and the company</a></li>
-                        <li><a href="#">Services and projects</a></li>
-                        <li><a href="#">Contact us online</a></li>
+                        <li><a href="#inicio">{{ __('messages.index_1') }}</a></li>
+                        <li><a href="#about_us">{{ __('messages.index_2') }}</a></li>
+                        <li><a href="#services">{{ __('messages.index_3') }}</a></li>
+                        <li><a href="#preguntas">{{ __('messages.index_4') }}</a></li>
+                        <li><a href="#contact">{{ __('messages.index_5') }}</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <ul class="text-list text-list-line">
-                        <li><b>Address</b><hr /><p>139 Baker St, E1 7PT, London</p></li>
-                        <li><b>Email</b><hr /><p>contacts@example.com</p></li>
-                        <li><b>Phone</b><hr /><p>(02) 123 333 444</p></li>
-                        <li><b>Opening hours</b><hr /><p>8am-5pm Mon - Fri</p></li>
+                        <li><b>{{ __('messages.index_8') }}</b><hr /><p>Bosque de Palmitos 17, <br>Colonia Lomas de Bezares, <br>Alcaldia Miguel Hidalgo, C.P. 11,920.</p></li>
+                        <li><b>Email</b><hr /><p>arturo@drissly.com</p></li>
+                        <li><b>{{ __('messages.index_9') }}</b><hr /><p></p></li>
+                        <li><b>Horario</b><hr /><p>9:00 a 18:00 horas Lun - Vie</p></li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="footer-bar">
-            <div class="container">
-                <span>© 2019 Execoore - Technology And Business Template Handmade by <a href="https://schiocco.com" target="_blank">schiocco.com</a>.</span>
-                <span><a href="#">Contact us</a> | <a href="#">Privacy policy</a></span>
             </div>
         </div>
         <link rel="stylesheet" href="media/icons/iconsmind/line-icons.min.css">

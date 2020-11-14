@@ -37346,3 +37346,6 @@ module.exports = __webpack_require__(/*! C:\xampp\htdocs\drissly\resources\sass\
 /***/ })
 
 /******/ });
+
+ var targeOffsetTop = $('[role="target"]').offset().top;
+  $( document ).scrollTop(targeOffsetTop)();
