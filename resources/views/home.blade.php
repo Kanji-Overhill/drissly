@@ -23,10 +23,10 @@
         <div class="container">
             <div class="menu-brand">
                 <a href="#">
-                    <img class="logo-default scroll-hide" src="media/Transparent_White.png" alt="logo" />
-                    <img class="logo-retina scroll-hide" src="media/Transparent_White.png" alt="logo" />
-                    <img class="logo-default scroll-show" src="media/Transparent_White.png" alt="logo" />
-                    <img class="logo-retina scroll-show" src="media/Transparent_White.png" alt="logo" />
+                    <img class="logo-default scroll-hide" src="media/Transparent_Gold.png" alt="logo" />
+                    <img class="logo-retina scroll-hide" src="media/Transparent_Gold.png" alt="logo" />
+                    <img class="logo-default scroll-show" src="media/Transparent_Gold.png" alt="logo" />
+                    <img class="logo-retina scroll-show" src="media/Transparent_Gold.png" alt="logo" />
                 </a>
             </div>
             <i class="menu-btn"></i>
@@ -73,6 +73,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <h3>Drissly</h3>
+                    <img class="logo-default scroll-show" src="media/Transparent_Gold.png" alt="logo" />
                     <p>{{ __('messages.index_6') }}</p>
                     
                 </div>
@@ -84,11 +85,11 @@
                         <li><a href="#services">{{ __('messages.index_3') }}</a></li>
                         <li><a href="#preguntas">{{ __('messages.index_4') }}</a></li>
                         <li><a href="#contact">{{ __('messages.index_5') }}</a></li>
+                        <li><a href="#">{{ __('messages.index_11') }}</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4">
                     <ul class="text-list text-list-line">
-                        <li><b>{{ __('messages.index_8') }}</b><hr /><p>Bosque de Palmitos 17, <br>Colonia Lomas de Bezares, <br>Alcaldia Miguel Hidalgo, C.P. 11,920.</p></li>
                         <li><b>Email</b><hr /><p>arturo@drissly.com</p></li>
                         <li><b>{{ __('messages.index_9') }}</b><hr /><p></p></li>
                         <li><b>Horario</b><hr /><p>9:00 a 18:00 horas Lun - Vie</p></li>

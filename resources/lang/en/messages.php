@@ -12,6 +12,7 @@ return [
 	'index_8' => 'Address',
 	'index_9' => 'Phone',
 	'index_10' => 'Schedule',
+	'index_11' => 'Notice of Privacy',
 	'home_1' => 'Pay the most important services coming soon',
 	'home_2' => 'Increase your business sales!',
 	'home_3' => 'Provide your customers with the simplicity of making their  cellphone minutes recharges through an easy and safe system, with the best technology.',
@@ -32,7 +33,7 @@ return [
 	'home_18' => 'Business model',
 	'home_19' => 'The result of our business model is a joint benefit; Users avoid waiting in lines or going to remote locations to make their payments, suppliers obtain a broader scope of collection and distributors obtain greater customer traffic in their spaces and higher income.',
 	'home_20' => 'We have commercial agreements for the sale and distribution of recharges of all mobile operators in Mexico, to provide. versatility in your business, in a safe and fast way.',
-	'home_21' => 'Write to us and we will contact you.',
+	'home_21' => 'Send us a Message.',
 	'home_22' => 'Contact us',
 	'home_23' => 'Name',
 	'home_24' => 'Position',
@@ -40,6 +41,7 @@ return [
 	'home_26' => 'Email',
 	'home_27' => 'Message',
 	'home_28' => 'Send Message',
+	'home_29' => 'Company',
 
 ];
 

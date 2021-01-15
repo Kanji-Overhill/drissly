@@ -12,6 +12,7 @@ return [
 	'index_8' => 'Direccion',
 	'index_9' => 'Teléfono',
 	'index_10' => 'Horario',
+	'index_11' => 'Aviso de Privacidad',
 	'home_1' => 'Pago de servicios próximamente',
 	'home_2' => '¡Incrementa las ventas de tu negocio!',
 	'home_3' => 'Brinda a tus clientes la facilidad de realizar sus recargas de tiempo aire mediante un sistema, fácil, seguro y con la mejor tecnología',
@@ -40,6 +41,7 @@ return [
 	'home_26' => 'Correo',
 	'home_27' => 'Mensaje',
 	'home_28' => 'Enviar Mensaje',
+	'home_29' => 'Empresa',
 
 
 

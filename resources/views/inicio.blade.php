@@ -108,8 +108,8 @@
                 <div class="grid-list" data-columns="3" data-columns-md="2" data-columns-sm="1" data-anima="fade-bottom" data-time="1000">
                     <div class="grid-box">
                         <div class="grid-item">
-                            <div class="cnt-box cnt-box-info boxed" data-href="#">
-                                <a href="#" class="img-box"><img src="media/image-15.jpg" alt="" /></a>
+                            <div class="cnt-box cnt-box-info boxed">
+                                <a href="" class="img-box"><img src="media/image-15.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
                                         {{ __('messages.home_13') }} 
@@ -118,8 +118,8 @@
                             </div>
                         </div>
                         <div class="grid-item">
-                            <div class="cnt-box cnt-box-info boxed" data-href="#">
-                                <a href="#" class="img-box"><img src="media/image-12.jpg" alt="" /></a>
+                            <div class="cnt-box cnt-box-info boxed">
+                                <a href="" class="img-box"><img src="media/image-12.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
                                         {{ __('messages.home_14') }} 
@@ -128,8 +128,8 @@
                             </div>
                         </div>
                         <div class="grid-item">
-                            <div class="cnt-box cnt-box-info boxed" data-href="#">
-                                <a href="#" class="img-box"><img src="media/image-2.jpg" alt="" /></a>
+                            <div class="cnt-box cnt-box-info boxed">
+                                <a href="" class="img-box"><img src="media/image-2.jpg" alt="" /></a>
                                 <div class="caption">
                                     <p>
                                         {{ __('messages.home_15') }}<br><br>
@@ -225,11 +225,15 @@
                                 <div class="col-lg-6">
                                     <input id="Email" name="Email" placeholder="{{ __('messages.home_24') }}" type="email" class="input-text" required="">
                                 </div>
+
                                 <div class="col-lg-6">
                                     <input id="Name" name="Name" placeholder="{{ __('messages.home_25') }}" type="text" class="input-text" required="">
                                 </div>
                                 <div class="col-lg-6">
                                     <input id="Email" name="Email" placeholder="{{ __('messages.home_26') }}" type="email" class="input-text" required="">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input id="company" name="company" placeholder="{{ __('messages.home_29') }}" type="text" class="input-text" required="">
                                 </div>
                             </div>
                             <hr class="space-xs" />
